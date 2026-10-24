@@ -1,0 +1,34 @@
+{
+  "name": "george-soros-ai-mcp",
+  "version": "1.0.0",
+  "description": "George Soros AI Model Context Protocol Server for Autonomous Reflexivity Intelligence, Open Society Guardianship & Macro Dynamics Protocol",
+  "tools": [
+    {
+      "name": "audit_reflexive_market_disequilibrium",
+      "description": "Analyze divergence between market participant perceptions and fundamental realities to detect reflexive feedback bubbles or systemic breakdowns",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "market_sector": { "type": "string" },
+          "prevailing_bias": { "type": "string" },
+          "underlying_trend": { "type": "string" }
+        },
+        "required": ["market_sector", "prevailing_bias"]
+      }
+    },
+    {
+      "name": "disburse_open_society_grant",
+      "description": "Trigger automated micro-escrow releases for independent media protection, academic freedom defense, human rights legal defense, and decentralized democratic tooling",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": { "type": "string" },
+          "recipient": { "type": "string" },
+          "amount_wei": { "type": "string" },
+          "proof_hash": { "type": "string" }
+        },
+        "required": ["category", "recipient", "amount_wei"]
+      }
+    }
+  ]
+}
